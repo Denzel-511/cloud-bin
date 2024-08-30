@@ -1,0 +1,312 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.10.3:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 142-101-593
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 11:26:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 11:26:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 11:26:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 11:26:49] "GET / HTTP/1.1" 200 -
+WARNING:root:No selected file
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 11:26:55] "[32mPOST /upload HTTP/1.1[0m" 302 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 11:26:55] "[35m[1mGET /upload HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 11:26:55] "GET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 11:26:55] "[36mGET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+WARNING:root:No selected file
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 11:27:21] "[32mPOST /upload HTTP/1.1[0m" 302 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 11:27:21] "[35m[1mGET /upload HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 11:27:21] "[36mGET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 11:27:21] "[36mGET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 11:27:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 11:30:49] "GET / HTTP/1.1" 200 -
+WARNING:root:No selected file
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 11:30:56] "[32mPOST /upload HTTP/1.1[0m" 302 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 11:30:56] "GET /upload HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 11:32:55] "GET /upload HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 11:35:26] "GET / HTTP/1.1" 200 -
+WARNING:root:File type not allowed: main.js
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 11:35:43] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\BlackAngel\\Desktop\\secured-cloud-storage\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 142-101-593
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:02:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:02:22] "GET / HTTP/1.1" 200 -
+WARNING:root:File type not allowed: main.js
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:02:35] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.10.3:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 142-101-593
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:09:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:09:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:09:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:09:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:09:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:11:41] "GET / HTTP/1.1" 200 -
+WARNING:root:File type not allowed: main.js
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:11:50] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:12:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:22:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:22:19] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:28:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:28:03] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:37:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:37:56] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:38:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:38:34] "GET /static/style.css HTTP/1.1" 200 -
+WARNING:root:File type not allowed: style.css
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:39:19] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:39:19] "[36mGET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:39:19] "[36mGET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\BlackAngel\\Desktop\\secured-cloud-storage\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 142-101-593
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:47:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:47:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:47:59] "[33mPOST /upload HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:48:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:48:09] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:48:22] "[33mPOST /upload HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:50:39] "[33mPOST /upload HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\BlackAngel\\Desktop\\secured-cloud-storage\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 142-101-593
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:58:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:58:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+WARNING:root:File type not allowed: style.css
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:58:18] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:58:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:59:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:59:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+WARNING:root:File type not allowed: Task1_setup (2).md
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:59:51] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 12:59:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 13:06:10] "[33mPOST /upload HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 13:06:17] "[33mPOST /upload HTTP/1.1[0m" 404 -
+WARNING:root:File type not allowed: style.css
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 13:06:28] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 13:06:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+WARNING:root:File type not allowed: style.css
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 13:06:37] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 13:06:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+WARNING:root:File type not allowed: style.css
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 13:54:22] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 13:54:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+WARNING:root:File type not allowed: main.js
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 13:54:31] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 13:54:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\BlackAngel\\Desktop\\secured-cloud-storage\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 142-101-593
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:19:08] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.10.3:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 142-101-593
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:20:52] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:20:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:20:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:20:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:21:09] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\BlackAngel\\Desktop\\secured-cloud-storage\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 142-101-593
+INFO:werkzeug: * Detected change in 'C:\\Users\\BlackAngel\\Desktop\\secured-cloud-storage\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 142-101-593
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.10.3:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 142-101-593
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:38:20] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:38:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:38:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:38:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:38:28] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\BlackAngel\\Desktop\\secured-cloud-storage\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 142-101-593
+WARNING:root:File type not allowed: main.js
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:43:12] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:43:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+WARNING:root:File type not allowed: main.js
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:43:21] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:43:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:File DENZEL_OWUSU_ANSAH.pdf uploaded successfully
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:44:18] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:44:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:File DENZEL_OWUSU_ANSAH.pdf uploaded successfully
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:49:27] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:49:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:49:51] "[33mPOST /upload HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:50:32] "[33mPOST /upload HTTP/1.1[0m" 404 -
+INFO:root:File DENZEL_OWUSU_ANSAH.pdf uploaded successfully
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:50:46] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:50:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:File DENZEL_OWUSU_ANSAH_1.pdf uploaded successfully
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:51:11] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:51:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+WARNING:root:File type not allowed: transactions.csv
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:57:04] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:57:05] "GET /static/style.css HTTP/1.1" 200 -
+WARNING:root:File type not allowed: test-account.json
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:58:20] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 14:58:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:File DENZEL_OWUSU_ANSAH.pdf uploaded successfully
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 15:00:03] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 15:00:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:File NETWORK_INFRASTRUCTURE_USING_CISCO_PACKET_TRACER_FOR_A_FOUR_STOREY_BUILDING.docx uploaded successfully
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 15:02:15] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 15:02:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:File DENZEL_OWUSU_ANSAH.pdf uploaded successfully
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 15:38:44] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 15:38:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:root:Error uploading file: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 15:38:58] "POST / HTTP/1.1" 200 -
+INFO:root:File DENZEL_OWUSU_ANSAH.pdf uploaded successfully
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 15:41:42] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 15:41:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:File DENZEL_OWUSU_ANSAH.pdf uploaded successfully
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 16:19:46] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 16:19:46] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 16:20:06] "[33mPOST /upload HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 16:20:18] "[33mPOST /upload HTTP/1.1[0m" 404 -
+WARNING:root:File type not allowed: Task1_setup (2).md
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 16:20:48] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 16:20:48] "GET /static/style.css HTTP/1.1" 200 -
+WARNING:root:File type not allowed: Task1_setup (2).md
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 16:20:56] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 16:20:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 16:21:18] "[33mPOST /upload HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\BlackAngel\\Desktop\\secured-cloud-storage\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 142-101-593
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 16:29:55] "[33mPOST / HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 16:30:05] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 16:30:11] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 16:30:48] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 16:30:50] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 16:30:56] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\BlackAngel\\Desktop\\secured-cloud-storage\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 142-101-593
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 16:31:31] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 16:31:33] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 16:31:36] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 16:31:37] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\BlackAngel\\Desktop\\secured-cloud-storage\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 142-101-593
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 16:31:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 16:31:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 16:32:16] "[33mPOST /upload HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\BlackAngel\\Desktop\\secured-cloud-storage\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.10.3:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 142-101-593
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 17:08:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 17:08:12] "GET /static/style.css HTTP/1.1" 200 -
+INFO:root:File 644fb7a67678b8a9fe0db1fe_20230501T1259-96320b36-97db-4f1f-8c02-54f4c2a7cae4.jpeg uploaded successfully
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 17:08:29] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 17:08:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 17:08:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 17:08:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 17:08:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\BlackAngel\\Desktop\\secured-cloud-storage\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 142-101-593
+INFO:werkzeug: * Detected change in 'C:\\Users\\BlackAngel\\Desktop\\secured-cloud-storage\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 142-101-593
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.10.3:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 142-101-593
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 23:39:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 23:39:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:File mysecuredcloudstorage-5bfddca24eed.json uploaded successfully
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 23:39:40] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 23:39:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 23:39:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 23:49:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 23:49:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 23:49:34] "[33mPOST /upload HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 23:50:38] "[33mPOST /upload HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 23:50:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 23:50:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 23:51:35] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 23:51:35] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 23:51:35] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 23:51:36] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 23:52:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 23:52:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 23:52:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 23:52:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+WARNING:root:File type not allowed: transactions.csv
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 23:52:33] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 23:52:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+WARNING:root:File type not allowed: transactions.csv
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 23:52:50] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [29/Aug/2024 23:52:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.10.3:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-164-543
+WARNING:root:File type not allowed: transactions.csv
+INFO:werkzeug:172.20.10.3 - - [30/Aug/2024 10:27:19] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [30/Aug/2024 10:27:19] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [30/Aug/2024 10:27:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+WARNING:root:File type not allowed: transactions.csv
+INFO:werkzeug:172.20.10.3 - - [30/Aug/2024 10:27:26] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [30/Aug/2024 10:27:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+WARNING:root:File type not allowed: transactions.csv
+INFO:werkzeug:172.20.10.3 - - [30/Aug/2024 10:27:30] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [30/Aug/2024 10:27:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+WARNING:root:File type not allowed: transactions.csv
+INFO:werkzeug:172.20.10.3 - - [30/Aug/2024 10:27:36] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [30/Aug/2024 10:27:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:File ultimate_digital_bundle.png uploaded successfully
+INFO:werkzeug:172.20.10.3 - - [30/Aug/2024 10:28:53] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:172.20.10.3 - - [30/Aug/2024 10:28:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [30/Aug/2024 10:28:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Secure Cloud App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">My Secure Cloud App</a>
+        <div>
+            <a href="#about">About</a>
+            <a href="#upload">Upload</a>
+        </div>
+    </div>
+
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <div class="flash-messages">
+        {% for message in messages %}
+        <p class="flash">{{ message }}</p>
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% endwith %}
+
+    <section class="hero-section fade-in">
+        <h1>Securely Store Your Files</h1>
+        <p>Upload and securely store your files with My Secure Cloud App. Your data, your control.</p>
+        <button class="cta-button" onclick="document.getElementById('upload').scrollIntoView();">Upload Now</button>
+    </section>
+
+    <section id="about" class="about-section fade-in">
+        <h2>About My Secure Cloud App</h2>
+        <p>My Secure Cloud App is a user-friendly application designed for security and ease of use. With a focus on security, this platform ensures that your data is always safe. Whether you are uploading sensitive documents or personal photos, this application provides the reliability and peace of mind you need.</p>
+    </section>
+
+    <section id="upload" class="upload-section fade-in">
+        <h2>Upload Your Files</h2>
+        <form action="/" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file">
+            <br><br>
+            <button type="submit" class="cta-button">Upload</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        ©️ 2024 My Secure Cloud App. All rights reserved.
+    </footer>
+</body>
+</html>

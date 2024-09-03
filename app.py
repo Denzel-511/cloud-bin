@@ -1,4 +1,6 @@
-from flask import Flask, render_template, request, redirect, url_for, flash
+import io
+from lib2to3.fixes.fix_idioms import CMP
+from flask import Flask, render_template, request, redirect, send_file, url_for, flash
 from google.cloud import storage
 import os
 import logging
@@ -27,21 +29,16 @@ bucket = storage_client.get_bucket(bucket_name)
 # Allowed extensions for file uploads
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif', 'pdf', 'docx', 'txt', 'json'}
 
-# Security Headers and Content Security Policy (CSP) with Talisman
+# Define a secure CSP configuration
 Talisman(app, content_security_policy={
-    'default-src': [
-        '\'self\'',
-        'https://your-cdn.com'
-    ],
-    'img-src': '*',
-    'style-src': [
-        '\'self\'',
-        'https://fonts.googleapis.com'
-    ],
-    'font-src': [
-        '\'self\'',
-        'https://fonts.gstatic.com'
-    ]
+    'default-src': ["'self'"],
+    'script-src': ["'self'", "https://trusted-cdn.com"],  # Trusted sources only
+    'style-src': ["'self'", "https://fonts.googleapis.com"],  # Trusted style sources
+    'img-src': ["'self'"],
+    'object-src': ["'none'"],
+    'frame-ancestors': ["'none'"],
+    'base-uri': ["'self'"],
+    'form-action': ["'self'"]
 })
 
 # Rate Limiting
@@ -57,6 +54,8 @@ logging.basicConfig(filename='app.log', level=logging.INFO)
 def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
+
 
 @app.route('/', methods=['GET', 'POST'])
 @limiter.limit("10 per minute")

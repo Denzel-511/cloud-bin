@@ -2458,3 +2458,27 @@ INFO:werkzeug:172.20.10.3 - - [03/Sep/2024 14:57:21] "GET / HTTP/1.1" 200 -
 WARNING:root:No file part in the request
 INFO:werkzeug:172.20.10.3 - - [03/Sep/2024 14:57:24] "[32mPOST / HTTP/1.1[0m" 302 -
 INFO:werkzeug:172.20.10.3 - - [03/Sep/2024 14:57:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.10.3:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 195-854-177
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.10.3:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 195-854-177
+INFO:werkzeug:172.20.10.3 - - [04/Sep/2024 11:05:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [04/Sep/2024 11:05:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.20.10.3 - - [04/Sep/2024 11:05:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [04/Sep/2024 11:05:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:File reelsuccess.pdf uploaded successfully
+INFO:werkzeug:172.20.10.3 - - [04/Sep/2024 11:05:58] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:172.20.10.3 - - [04/Sep/2024 11:05:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [04/Sep/2024 11:05:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

@@ -1,1 +1,3 @@
 "C:\Users\BlackAngel\Downloads\mysecuredcloudstorage-5bfddca24eed.json"
+# Ignore environment files
+.env

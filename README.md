@@ -1,8 +1,8 @@
-<<<<<<< HEAD
 *Secured Cloud Storage Application*
 
 ## *Overview*
 The Secured Cloud Storage Application is a web-based platform designed to securely store files in Google Cloud Storage. This project demonstrates robust cloud security measures, emphasizing secure file handling, access management, and encryption, along with a vulnerability assessment to identify potential security gaps and outline mitigation strategies.
+![overview ](screenshots\overview.jpg)
 
 ## *Table of Contents*
 1. 1. Project Description
@@ -15,10 +15,11 @@ The Secured Cloud Storage Application is a web-based platform designed to secure
 8. Action Plan for Mitigation
 9. Usage Instructions
 10. Screenshots
-11. Testing and Validation
-12. Troubleshooting
-13. Conclusion
-14. References
+11. Managing Secret Keys and Environment Variables
+12. Testing and Validation
+13. Troubleshooting
+14. Conclusion
+15. References
 
 ## *1. Project Description*
 The Secured Cloud Storage Application provides a secure environment for file storage, supporting multiple file types, performing strict validation, and managing access through secure service accounts and IAM roles. This project showcases practical skills in cloud security, focusing on encryption, access control, and secure coding practices. Additionally, a comprehensive vulnerability assessment was conducted to ensure the application’s security resilience
@@ -130,7 +131,7 @@ To address the identified vulnerabilities, the following mitigation steps have b
 	2.	Hide Server Headers: Adjust server settings to obscure version information in HTTP responses.
 	3.	Strengthen Session Management: Enhance session security by applying secure cookie attributes and implementing stricter session timeout policies.
 
-## *7.1. Usage Instructions*
+## *9. Usage Instructions*
 1. *Start the Application*
    bash
    python app.py
@@ -138,7 +139,7 @@ To address the identified vulnerabilities, the following mitigation steps have b
 2. *Access the Web Interface*: Open http://localhost:5000 in your browser to access the application.
 3. *Upload Files*: Use the file upload feature to test secure file handling. Only permitted file types will be accepted.
 
-## *8. Screenshots*
+## *10. Screenshots*
 - *Bucket Configuration*: Screenshot showing the Google Cloud Storage bucket setup.
 ![Bucket Configuration](screenshots\fileupload.jpg)
 ![Bucket Configuration](screenshots\permissionbucket.jpg)
@@ -163,8 +164,37 @@ To address the identified vulnerabilities, the following mitigation steps have b
 ![app.py](screenshots\app.py4.jpg)
 ![app.py](screenshots\app.py3.jpg)
 
+### *11. Managing Secret Keys and Environment Variables*
 
-## *9. Testing and Validation*
+To ensure the security of sensitive information in my project, I implemented best practices for handling secrets, particularly the Google Cloud JSON service key.
+
+### *Steps Taken to Secure the Key*
+
+1. *Using Environment Variables:*
+   I stored the path to the JSON key in environment variables instead of embedding the key directly in my code. This allows the app to read the credentials from the environment at runtime. The .env file holds:
+   - GOOGLE_APPLICATION_CREDENTIALS: The path to the JSON key.
+   - SECRET_KEY: A secure key for session management.
+   ![ env](screenshots\env.jpg)
+
+2. *Creating a .gitignore File:*
+   To ensure sensitive information isn’t included in version control, I added a .gitignore file to exclude the JSON key from being committed. This prevents the key from being accidentally exposed on platforms like GitHub.
+   ![ env](screenshots\gitignore.jpg)
+
+3. *Cleaning Git History:*
+   I removed any previous commits containing the JSON key by using Git’s history rewrite commands. This ensures that the secret is no longer accessible even in previous commits.
+
+4. *Maintaining App Functionality:*
+   After configuring the app to access secrets via environment variables, I ensured that the app continues to function correctly without needing the key directly in the project files. This not only strengthens security but also facilitates deployment in different environments without risking exposure of credentials.
+
+### *Why I Avoid Exposing Secrets*
+
+- *Enhanced Security:* Storing sensitive keys in environment variables reduces the risk of unauthorized access to my cloud resources.
+- *Industry Best Practices:* This approach aligns with best practices for security, ensuring compliance with standards such as GDPR or HIPAA.
+- *Flexible Deployment:* Using environment variables for secrets allows for easy transitions between development, staging, and production environments without compromising security.
+
+This approach ensures that sensitive information is handled securely while maintaining the functionality of the application.
+
+## *12. Testing and Validation*
 - *Functional Testing*: Verify all features work as expected.
 ![ file upload](screenshots\fileupload.jpg)
 ![access control](screenshots\iam.jpg)
@@ -176,7 +206,7 @@ To address the identified vulnerabilities, the following mitigation steps have b
 ![Environmentvariables](screenshots\fileupload.jpg)
 
 
-## *10. Troubleshooting*
+## *13. Troubleshooting*
 - *Common Errors*:1. File Upload Failures
 
 	•	Error: Files do not upload, or error messages display.
@@ -202,16 +232,13 @@ To address the identified vulnerabilities, the following mitigation steps have b
 	•	Enable Debug Mode: Use Flask’s debug mode for detailed error messages during development. Avoid using it in production for security reasons.
 	•	Logging: Regularly review log files (app.log) for warnings and errors to identify recurring issues.
 
-## *11. Conclusion*
+
+## *14. Conclusion*
 This project not only demonstrates key skills in cloud security implementation but also reflects my ability to conduct a critical assessment of vulnerabilities and develop actionable strategies to enhance the application’s security posture. The combination of proactive security measures and vulnerability assessments underscores a comprehensive approach to maintaining secure cloud environments.
 
-## *12. References*
+## *15. References*
 - [Flask Documentation](https://flask.palletsprojects.com/)
 - [Google Cloud Platform Security](https://cloud.google.com/security)
 - [Flask-Talisman](https://github.com/GoogleCloudPlatform/flask-talisman)
 - [Flask-Limiter](https://flask-limiter.readthedocs.io/)
 - [Owasp-Zap](https://owasp.org/www-project-zap/)
-=======
-# secured-cloud-storage
-A secure cloud storage application with security practices implemented 
->>>>>>> 9a45975943aadf0480aef49ead1b5a13db3cb49a

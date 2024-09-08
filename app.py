@@ -1,5 +1,4 @@
 import io
-from lib2to3.fixes.fix_idioms import CMP
 from flask import Flask, render_template, request, redirect, send_file, url_for, flash
 from google.cloud import storage
 import os
@@ -16,7 +15,7 @@ load_dotenv()
 app = Flask(__name__)
 
 # Secret key for session management, moved to environment variable for security
-app.secret_key = os.getenv('SECRET_KEY', 'yhte44dyfu7guyfyf87gu')  # Default fallback if environment variable is not set
+app.secret_key = os.getenv('SECRET_KEY', 'fallback-key')  # Default fallback if environment variable is not set
 
 # Google Cloud Storage client setup
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = os.getenv('GOOGLE_APPLICATION_CREDENTIALS')

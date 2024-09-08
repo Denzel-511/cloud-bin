@@ -2482,3 +2482,52 @@ INFO:root:File reelsuccess.pdf uploaded successfully
 INFO:werkzeug:172.20.10.3 - - [04/Sep/2024 11:05:58] "[32mPOST / HTTP/1.1[0m" 302 -
 INFO:werkzeug:172.20.10.3 - - [04/Sep/2024 11:05:58] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:172.20.10.3 - - [04/Sep/2024 11:05:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.10.3:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 195-854-177
+INFO:werkzeug:172.20.10.3 - - [04/Sep/2024 23:29:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [04/Sep/2024 23:29:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.10.3:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 329-073-284
+INFO:werkzeug:172.20.10.3 - - [07/Sep/2024 04:06:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [07/Sep/2024 04:06:13] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [07/Sep/2024 04:06:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.10.3:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-541-230
+INFO:werkzeug:172.20.10.3 - - [08/Sep/2024 04:24:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [08/Sep/2024 04:24:12] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [08/Sep/2024 04:24:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.20.10.3 - - [08/Sep/2024 04:24:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [08/Sep/2024 04:24:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.20.10.3 - - [08/Sep/2024 04:24:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\BlackAngel\\Desktop\\secured-cloud-storage\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-541-230
+INFO:werkzeug:172.20.10.3 - - [08/Sep/2024 04:27:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.3 - - [08/Sep/2024 04:27:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.10.3:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-541-230

@@ -2,7 +2,7 @@
 
 ## *Overview*
 The Secured Cloud Storage Application is a web-based platform designed to securely store files in Google Cloud Storage. This project demonstrates robust cloud security measures, emphasizing secure file handling, access management, and encryption, along with a vulnerability assessment to identify potential security gaps and outline mitigation strategies.
-![overview ](screenshots\overview.jpg)
+![overview ](screenshots/overview.jpg)
 
 ## *Table of Contents*
 1. 1. Project Description
@@ -67,39 +67,39 @@ The Secured Cloud Storage Application provides a secure environment for file sto
      GOOGLE_APPLICATION_CREDENTIALS=<path_to_your_json_key>
      BUCKET_NAME=<your_bucket_name>
 
-     ![Environmentvariables](screenshots\l10.jpg)
+     ![Environmentvariables](screenshots/l10.jpg)
 
 ## *5. Configuration and Setup*
 ### Google Cloud Configuration
 1. *Create a Cloud Storage Bucket*: Set up a bucket in Google Cloud Storage with proper access controls.
-![Cloud Storage Bucket](screenshots\d2.jpg)
+![Cloud Storage Bucket](screenshots/d2.jpg)
 
 2. *Set Up Service Account*: Create a service account with Storage Admin and Storage Object Admin roles. Download the JSON key file and link it to your application.
 3. *Configure IAM Roles*: Define roles with the least privilege principle to control access to your resources.
-![Service Account](screenshots\d4.jpg)
+![Service Account](screenshots/d4.jpg)
 
 ### Application Configuration
 1. *Environment Variables*: Load environment variables using the .env file to securely manage credentials.
-![Environmentvariables](screenshots\l10.jpg)
+![Environmentvariables](screenshots/l10.jpg)
 
 2. *Flask Configuration*: Set up Flask with secure headers and configure the application to connect with the cloud storage.
-![Flask Configuration](screenshots\d1.jpg)
+![Flask Configuration](screenshots/d1.jpg)
 
 ## *6. Security Features*
 - *IAM Roles and Permissions*: Implements strict access control by defining and managing roles.
-![IAM Roles and Permissions](screenshots\l17.jpg)
+![IAM Roles and Permissions](screenshots/l17.jpg)
 
 - *Service Account Security*: Uses a dedicated service account with the least privilege access, following best practices.
-![Service Account Security](screenshots\d4.jpg)
+![Service Account Security](screenshots/d4.jpg)
 
 - *CSP with Flask-Talisman*: Protects against common vulnerabilities like XSS and content injection.
-![CSP with Flask-Talisman](screenshots\l12.jpg)
+![CSP with Flask-Talisman](screenshots/l12.jpg)
 
 - *Rate Limiting with Flask-Limiter*: Limits the number of requests per user to prevent abuse.
-![Rate Limiting with Flask-Limiter](screenshots\l13.jpg)
+![Rate Limiting with Flask-Limiter](screenshots/l13.jpg)
 
 - *Logging and Monitoring*: Logs security events and unauthorized access attempts to enhance visibility and response.
-![Logging and Monitoring](screenshots\l13.jpg)
+![Logging and Monitoring](screenshots/l13.jpg)
 
 
 7. A vulnerability assessment was performed using OWASP ZAP to identify security weaknesses in the application. The assessment revealed the following issues:
@@ -141,28 +141,28 @@ To address the identified vulnerabilities, the following mitigation steps have b
 
 ## *10. Screenshots*
 - *Bucket Configuration*: Screenshot showing the Google Cloud Storage bucket setup.
-![Bucket Configuration](screenshots\fileupload.jpg)
-![Bucket Configuration](screenshots\permissionbucket.jpg)
-![Bucket Configuration](screenshots\bucketdetails.jpg)
+![Bucket Configuration](screenshots/fileupload.jpg)
+![Bucket Configuration](screenshots/permissionbucket.jpg)
+![Bucket Configuration](screenshots/bucketdetails.jpg)
 
 
 - *IAM Configuration*: Screenshot of the IAM roles and permissions set up.
-![IAM Configuration](screenshots\l17.jpg)
+![IAM Configuration](screenshots/l17.jpg)
 
 - *Web Interface*: Screenshots of the main upload page and confirmation messages.
-![Web Interface](screenshots\l20.jpg)
-![Web Interface](screenshots\l21.jpg)
+![Web Interface](screenshots/l20.jpg)
+![Web Interface](screenshots/l21.jpg)
 
 - *Error Messages*: Screenshots showing error handling for invalid file types or unauthorized access.
-![Error Messages](screenshots\l19.jpg)
+![Error Messages](screenshots/l19.jpg)
 
 - *Html, css and app.py code snippet*: 
-![css](screenshots\css.jpg)
-![Html ](screenshots\html.jpg)
-![app.py](screenshots\app.py2.jpg)
+![css](screenshots/css.jpg)
+![Html ](screenshots/html.jpg)
+![app.py](screenshots/app.py2.jpg)
 ![app.py](screenshots/app.py1.jpg)
-![app.py](screenshots\app.py4.jpg)
-![app.py](screenshots\app.py3.jpg)
+![app.py](screenshots/app.py4.jpg)
+![app.py](screenshots/app.py3.jpg)
 
 ### *11. Managing Secret Keys and Environment Variables*
 
@@ -174,11 +174,11 @@ To ensure the security of sensitive information in my project, I implemented bes
    I stored the path to the JSON key in environment variables instead of embedding the key directly in my code. This allows the app to read the credentials from the environment at runtime. The .env file holds:
    - GOOGLE_APPLICATION_CREDENTIALS: The path to the JSON key.
    - SECRET_KEY: A secure key for session management.
-   ![ env](screenshots\env.jpg)
+   ![ env](screenshots/env.jpg)
 
 2. *Creating a .gitignore File:*
    To ensure sensitive information isn’t included in version control, I added a .gitignore file to exclude the JSON key from being committed. This prevents the key from being accidentally exposed on platforms like GitHub.
-   ![ env](screenshots\gitignore.jpg)
+   ![ env](screenshots/gitignore.jpg)
 
 3. *Cleaning Git History:*
    I removed any previous commits containing the JSON key by using Git’s history rewrite commands. This ensures that the secret is no longer accessible even in previous commits.
@@ -196,14 +196,14 @@ This approach ensures that sensitive information is handled securely while maint
 
 ## *12. Testing and Validation*
 - *Functional Testing*: Verify all features work as expected.
-![ file upload](screenshots\fileupload.jpg)
-![access control](screenshots\iam.jpg)
+![ file upload](screenshots/fileupload.jpg)
+![access control](screenshots/iam.jpg)
 
 - *Security Testing*: Validate that CSP, rate limiting, and other security measures effectively protect the application.
-![rate limiting](screenshots\rate.jpg)
-![rate limiting](screenshots\rate1.jpg)
+![rate limiting](screenshots/rate.jpg)
+![rate limiting](screenshots/rate1.jpg)
 - *Integration Testing*: Test the integration with Google Cloud Storage and service accounts.
-![Environmentvariables](screenshots\fileupload.jpg)
+![Environmentvariables](screenshots/fileupload.jpg)
 
 
 ## *13. Troubleshooting*
